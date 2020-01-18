@@ -16,6 +16,7 @@
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
+    --fs-social-icons: 1.75rem;
     --fs-h3: 1.25rem;
     --fs-body: 1rem;
 
@@ -416,7 +417,7 @@ header {
     color: var(--clr-accent);
     text-align: center;
     padding: 2.5em 0;
-    font-size: var(--fs-h3);
+    font-size: var(--fs-social-icons);
 }
 
 .footer a {
