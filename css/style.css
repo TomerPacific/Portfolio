@@ -438,6 +438,10 @@ header {
     text-decoration: underline;
 }
 
+.orange-highlight:hover {
+    color: #F48024;
+}
+
 .social-list {
     list-style: none;
     display: flex;
