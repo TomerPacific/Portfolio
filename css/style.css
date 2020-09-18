@@ -13,6 +13,7 @@
     --clr-light: #fff;
     --clr-dark: #303030;
     --clr-accent: #16e0bd;
+    --clr-hackernoon: #00ff00;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -245,6 +246,21 @@ header {
 
 .section__subtitle--intro {
     display: inline-block;
+}
+
+.noonies {
+    background: var(--clr-hackernoon);
+    position: absolute;
+    top: 1em;
+    z-index: 1000;
+}
+
+#tech {
+    right: 60em;
+}
+
+#developer {
+    right: 40em;
 }
 
 @media (min-width: 600px) {
