@@ -248,21 +248,6 @@ header {
     display: inline-block;
 }
 
-.noonies {
-    background: var(--clr-hackernoon);
-    position: absolute;
-    top: 1em;
-    z-index: 1000;
-}
-
-#tech {
-    right: 60em;
-}
-
-#developer {
-    right: 40em;
-}
-
 @media (min-width: 600px) {
     .intro {
         display: grid;
